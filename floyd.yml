@@ -1,0 +1,15 @@
+env: tensorflow-1.12
+
+input:
+  - destination: favorites
+    source: louisdorard/datasets/favorites/3
+
+machine: cpu
+
+task:
+  serve: # floyd run --task serve
+    machine: cpu
+    mode: serve
+    input:
+      - source: louisdorard/datasets/favorites/3
+        destination: favorites

@@ -33,8 +33,6 @@ The main environment we'll be using is that of Jupyter notebooks. Among other fe
 
 https://www.youtube.com/watch?v=pwr-pR0tu5Y&&feature=youtu.be
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pwr-pR0tu5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 Make sure you've shared your username with your instructor via Slack and that you've been added to our Floyd [team](https://www.floydhub.com/teams/humancoders/settings). This will allow you to run Floyd workspaces and to have access to paid features, without having to enter your credit card information.
 
 * [ ] **Create a new project via https://www.floydhub.com/projects/create**

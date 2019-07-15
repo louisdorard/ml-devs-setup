@@ -7,6 +7,7 @@ channels:
 - defaults
 dependencies:
 - flask
+- joblib
 - lime
 - matplotlib
 - nltk

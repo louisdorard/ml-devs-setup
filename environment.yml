@@ -17,5 +17,4 @@ dependencies:
 - rise
 - scikit-learn=0.20.2
 - seaborn
-- pip:
-  - version-information
+- version_information

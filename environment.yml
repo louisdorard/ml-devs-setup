@@ -14,6 +14,7 @@ dependencies:
 - nltk
 - pandas
 - pandas-profiling
+- pylint
 - python>=3
 - rise
 - scikit-learn=0.20.2

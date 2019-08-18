@@ -2,7 +2,7 @@
 
 You can set up a temporary environment in the cloud via Binder:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/louisdorard/ml-devs-setup/local-setup?filepath=Intro-Jupyter.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/louisdorard/ml-workshops-setup/local-setup?filepath=Intro-Jupyter.ipynb)
 
 You can also generate a Docker image via [repo2docker](https://repo2docker.readthedocs.io/en/latest/). Otherwise, follow the instructions below to set up your own local environment with conda.
 
@@ -14,7 +14,7 @@ Windows or Linux: download from https://www.anaconda.com/distribution/
 
 Update it via `conda update —all -y`.
 
-### `ml-devs` conda environment
+### `ml-workshops` conda environment
 
 #### Create environment
 
@@ -22,7 +22,7 @@ From this repo's directory:
 
 ```bash
 conda env create -f environment.yml
-conda activate ml-devs
+conda activate ml-workshops
 ```
 
 TODO test this on Windows

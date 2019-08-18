@@ -1,6 +1,6 @@
 # Configuration file which specifies all of the packages to install to set up a conda environment
 
-name: ml-devs
+name: ml-workshops
 channels:
 - anaconda
 - conda-forge

@@ -1,10 +1,4 @@
-env: tensorflow-1.12
-
-input:
-  - destination: favorites
-    source: louisdorard/datasets/favorites/3
-  - destination: ssh
-    source: humancoders/datasets/ssh/1
+env: tensorflow-1.13
 
 machine: cpu
 
@@ -12,6 +6,9 @@ task:
   serve: # floyd run --task serve
     machine: cpu
     mode: serve
-    input:
-      - source: louisdorard/datasets/favorites/3
-        destination: favorites
+
+input:
+  - destination: favorites
+    source: louisdorard/datasets/favorites/3
+  - destination: ssh
+    source: humancoders/datasets/ssh/1

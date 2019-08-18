@@ -1,14 +1,19 @@
 flask
 h5py==2.8.0rc1 # dl
-hyperopt==0.1 # ml-advanced
+hyperopt==0.1.2 # ml-advanced
 joblib
+kaggle
 keras==2.1.6 # dl
 lime # optional - prediction explanations
+matplotlib # for plots
+nltk # optional - for text pre-processing
 networkx==1.11 # ml-advanced - see https://github.com/hyperopt/hyperopt/issues/325
 pandas-profiling
+papermill # for notebook parametrization and execution from CLI
 pydot # what for?
 rise # slideshow mode on notebooks
-scikit-learn==0.20.2
+scikit-learn==0.21.3
 seaborn # for plots
 tensorflow==1.12 # dl
 version-information
+xgboost # ml-advanced

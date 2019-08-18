@@ -1,4 +1,4 @@
-# ML for Devs Workshop — Set-Up Instructions
+# ML Workshops — Set-Up Instructions
 
 All Rights Reserved © <a href="http://www.louisdorard.com" style="color: #6D00FF;">Louis Dorard</a>
 

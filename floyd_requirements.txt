@@ -1,8 +1,14 @@
-scikit-learn==0.20.2
-joblib
-lime
-pandas-profiling
 flask
-rise
-seaborn
+h5py==2.8.0rc1 # dl
+hyperopt==0.1 # ml-advanced
+joblib
+keras==2.1.6 # dl
+lime # optional - prediction explanations
+networkx==1.11 # ml-advanced - see https://github.com/hyperopt/hyperopt/issues/325
+pandas-profiling
+pydot # what for?
+rise # slideshow mode on notebooks
+scikit-learn==0.20.2
+seaborn # for plots
+tensorflow==1.12 # dl
 version-information

@@ -4,7 +4,11 @@ All Rights Reserved © <a href="http://www.louisdorard.com" style="color: #6D00F
 
 <img src="http://s3.louisdorard.com.s3.amazonaws.com/ML_icon.png">
 
-Our Machine and Deep Learning workshops include “lab” sessions, with exercises to do on your laptop. This document contains the required set-up instructions to prepare the environment you’ll use for these exercises. This environment will be based on a service called Floyd. We explain its benefits below, and we provide information to get started. Finally, some optional instructions are given.
+Our Machine and Deep Learning workshops include “lab” sessions, with exercises to do on your laptop. This document contains the required set-up instructions to prepare the environment you’ll use for these exercises.
+
+The environment is based on a service called Floyd. We explain its benefits below, and we provide information to get started. (More instructions will be provided at the end of the workshop, so you can set up a similar environment on your own machine.)
+
+Finally, some optional instructions are given.
 
 ***
 

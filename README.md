@@ -44,7 +44,7 @@ The main environment we'll be using is that of Jupyter notebooks. Among other fe
   * [ ] Click on “Create workspace” (blue button)
   * [ ] Click on “Create workspace” (green button)
   * [ ] Choose “Import from GitHub”
-  * [ ] Enter the following repository URL: `http://github.com/louisdorard/ml-devs-setup`
+  * [ ] Enter the following repository URL: `http://github.com/louisdorard/ml-workshops-setup`
     * [ ] Follow on-screen instructions to run the workspace
 * [ ] **Go through the [Intro-Jupyter notebook](Intro-Jupyter.ipynb)**
   * [ ] Make one obvious change to the notebook and save the change

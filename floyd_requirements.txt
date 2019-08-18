@@ -14,6 +14,6 @@ pydot # what for?
 rise # slideshow mode on notebooks
 scikit-learn==0.21.3
 seaborn # for plots
-tensorflow==1.13.1 # dl
+tensorflow==1.14.0 # dl
 version-information
 xgboost # ml-advanced

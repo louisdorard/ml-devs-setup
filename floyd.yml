@@ -3,6 +3,8 @@ env: tensorflow-1.12
 input:
   - destination: favorites
     source: louisdorard/datasets/favorites/3
+  - destination: ssh
+    source: humancoders/datasets/ssh/1
 
 machine: cpu
 

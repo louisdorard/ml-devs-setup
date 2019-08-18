@@ -10,7 +10,7 @@ You can also generate a Docker image via [repo2docker](https://repo2docker.readt
 
 On Mac I used Homebrew's Cask: `brew cask install miniconda`. You can initialize it for your shell with `conda init YOUR_SHELL_NAME`.
 
-Windows or Linux: download from https://www.anaconda.com/distribution/
+[Download for Windows or Linux](https://www.anaconda.com/distribution/)
 
 Update it via `conda update —all -y`.
 
@@ -72,7 +72,18 @@ If you're (interested in) using a cloud machine for development, coder.com allow
 
 Using papermill.
 
-Can be run from a Terminal application (I use iTerm2 on Mac) or from VS Code or from Jupyter Lab.
+Make the kernel of the `ml-workshops` environment accessible to papermill:
+
+```bash
+conda activate ml-workshops
+python -m ipykernel install --name ml-workshops
+```
+
+Papermill can then be run from a Terminal application (I use iTerm2 on Mac) or from VS Code or from Jupyter Lab. Example:
+
+```bash
+papermill notebook.ipynb output/notebook.ipynb -k ml-workshops
+```
 
 If you are on Windows, you might want to try the [Ubuntu app](https://www.microsoft.com/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab), or to install Ubuntu alongside Windows, to make it easier to use the command line.
 
@@ -80,4 +91,4 @@ If you are on Windows, you might want to try the [Ubuntu app](https://www.micros
 
 [Louis Dorard](http://louisdorard.com) © All Rights Reserved
 
-Follow me on Twitter [@louisdorard](https://twitter.com/louisdorard) 
+Follow me on Twitter [@louisdorard](https://twitter.com/louisdorard)

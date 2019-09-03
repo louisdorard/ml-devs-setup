@@ -7,11 +7,11 @@ channels:
 - defaults
 dependencies:
 - flask
+- graphviz # dl: used to plot Keras model
 - hyperopt=0.1.2 # ml-advanced
 - ipykernel
 - joblib
 - kaggle
-- keras=2.1.6 # dl
 - lime # optional - prediction explanations
 - matplotlib # for plots
 - nltk # optional - for text pre-processing
@@ -19,15 +19,15 @@ dependencies:
 - pandas-profiling
 - papermill # for notebook parametrization and execution from CLI
 - pip
-- pydot # what for?
+- pydot # dl: used to plot Keras model
 - pylint # asked by VS Code
 - python>=3
 - rise # slideshow mode on notebooks
 - seaborn # for plots
-- tensorflow=1.12 # dl
 - version_information
 - xgboost # ml-advanced
 - pip:
-  - scikit-learn==0.21.3
   - h5py==2.8.0rc1 # dl
   - networkx==1.11 # ml-advanced — see https://github.com/hyperopt/hyperopt/issues/325
+  - scikit-learn==0.21.3
+  - tf-nightly-2.0-preview # dl

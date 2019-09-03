@@ -37,7 +37,7 @@ Install a few packages so you can then start Jupyter from your base conda enviro
 
 ```bash
 conda activate base
-conda install jupyterlab rise jupyter_contrib_nbextensions nb_conda_kernels
+conda install jupyterlab rise jupyter_contrib_nbextensions nb_conda_kernels bash_kernel
 ```
 
 TODO test this on Windows
@@ -45,6 +45,7 @@ TODO test this on Windows
 * rise: to turn notebooks into slideshows
 * jupyter_contrib_nbextensions: to make it easier to customize rise
 * nb_conda_kernels: to allow usage of any environment as Jupyter kernel
+* bash_kernel: use Bash instead of Python kernel in notebooks
 
 Once it's installed, fire up Jupyter Lab
 
@@ -85,7 +86,7 @@ Papermill can then be run from a Terminal application (I use iTerm2 on Mac) or f
 papermill notebook.ipynb output/notebook.ipynb -k ml-workshops
 ```
 
-If you are on Windows, you might want to try the [Ubuntu app](https://www.microsoft.com/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab), or to install Ubuntu alongside Windows, to make it easier to use the command line.
+If you are on Windows, you might want to try [Cygwin](http://cygwin.com), or the [Ubuntu app](https://www.microsoft.com/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab), or to install Ubuntu alongside Windows, to make it easier to use the command line.
 
 ## Copyright
 

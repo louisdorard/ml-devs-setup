@@ -1,4 +1,5 @@
 flask
+graphviz # dl: used to plot Keras models
 h5py==2.8.0rc1 # dl
 hyperopt==0.1.2 # ml-advanced
 joblib
@@ -10,10 +11,10 @@ nltk # optional - for text pre-processing
 networkx==1.11 # ml-advanced - see https://github.com/hyperopt/hyperopt/issues/325
 pandas-profiling
 papermill # for notebook parametrization and execution from CLI
-pydot # what for?
+pydot # dl: used to plot Keras models
 rise # slideshow mode on notebooks
 scikit-learn==0.21.3
 seaborn # for plots
-tensorflow==1.13.1 # dl
+tf-nightly-2.0-preview # dl
 version-information
 xgboost # ml-advanced

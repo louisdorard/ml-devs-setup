@@ -21,7 +21,7 @@ Please follow these instructions from the machine you’ll be using during the w
 * [ ] Send your Floyd username to your instructor via Slack (@louis or @christophe), so he can add you to our Floyd team.
 * [ ] Make sure you have a recent version of [Chrome](http://google.com/chrome). You could try using a different browser, but we have noticed issues with the web interfaces we use for these workshops (whereas everything was tested with Chrome and works well).
 
-## Why Floyd?
+## Why Floyd
 
 There are 3 main reasons:
 

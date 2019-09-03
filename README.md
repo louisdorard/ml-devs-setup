@@ -67,6 +67,26 @@ In case you cannot use Floyd, you will need to download the workshop datasets an
 * Sign up for an [Indico](http://www.indico.io/) account. Indico is a cloud API which exposes pre-built, proprietary Machine Learning and Deep Learning models. Usage is free for non-commercial purposes.
 * Sign up for a [Kaggle](http://kaggle.com) account. Kaggle hosts many Machine Learning datasets, challenges, and interesting discussions around them.
 
+## Downloading workshop's code
+
+Your instructor will share with you the URL of the workshop's git repository in class.
+
+### Step 1. Configure ssh keys to access the git repo
+
+Execute the following command in a terminal (you can open a terminal from the Floyd workspace by clicking _File, New, Terminal_):
+
+```bash
+mkdir ~/.ssh
+echo -e "Host gitlab.com\nIdentityFile /floyd/input/ssh/ml" >> ~/.ssh/config
+```
+
+### Step 2. Clone the repo
+
+```bash
+cd /floyd/home
+git clone URL
+```
+
 ## Copyright
 
 [Louis Dorard](http://louisdorard.com) © All Rights Reserved

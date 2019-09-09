@@ -17,7 +17,7 @@ Finally, some optional instructions are given.
 Please follow these instructions from the machine you’ll be using during the workshop:
 
 * [ ] Sign up for a Floyd account via [floydhub.com](https://www.floydhub.com/). Floyd is a cloud platform to set up Python and [Jupyter](https://jupyter.org/) environments, provisioned with all the software we'll need.
-* [ ] Join our Slack messaging group via [this link](https://louisdorard.com/slack). Slack is the preferred way to communicate with your instructor during and prior to the workshop.
+* [ ] Join our Slack messaging group via [this link](https://www.louisdorard.com/slack). Slack is the preferred way to communicate with your instructor during and prior to the workshop.
 * [ ] Send your Floyd username to your instructor via Slack (@louis or @christophe), so he can add you to our Floyd team.
 * [ ] Make sure you have a recent version of [Chrome](http://google.com/chrome). You could try using a different browser, but we have noticed issues with the web interfaces we use for these workshops (whereas everything was tested with Chrome and works well).
 

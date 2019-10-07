@@ -6,6 +6,14 @@ You can set up a temporary environment in the cloud via Binder:
 
 You can also generate a Docker image via [repo2docker](https://repo2docker.readthedocs.io/en/latest/). Otherwise, follow the instructions below to set up your own local environment with conda.
 
+## Shell and terminal
+
+On Mac I use the [fish shell](http://fishshell.com) and the [iTerm terminal](http://iterm2.com).
+
+On Windows I recommend installing [Git For Windows](https://gitforwindows.org), which includes the bash shell, and using [cmder](https://cmder.net) as terminal (which uses bash by default).
+
+Once your shell and your terminal are set up, you'll be ready to execute the commands below.
+
 ## conda (Python distro)
 
 On Mac I used Homebrew's Cask: `brew cask install miniconda`. You can initialize it for your shell with `conda init YOUR_SHELL_NAME`.

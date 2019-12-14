@@ -1,3 +1,4 @@
+bash_kernel
 flask
 graphviz # dl: used to plot Keras models
 h5py==2.8.0rc1 # dl

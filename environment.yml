@@ -20,8 +20,9 @@ dependencies:
 - papermill # for notebook parametrization and execution from CLI
 - pip
 - pydot # dl: used to plot Keras model
-- pylint # asked by VS Code
+- pylint # used by VS Code for linting
 - python>=3
+- rope # used by VS Code for refactoring
 - rise # slideshow mode on notebooks
 - seaborn # for plots
 - version_information
@@ -29,5 +30,6 @@ dependencies:
 - pip:
   - h5py==2.8.0rc1 # dl
   - networkx==1.11 # ml-advanced — see https://github.com/hyperopt/hyperopt/issues/325
+  - python-dotenv
   - scikit-learn==0.21.3
   - tf-nightly-2.0-preview # dl
